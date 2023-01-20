@@ -17,8 +17,50 @@
 body {
   font-family: var(--primary-font);
   font-weight: var(--regular-weight);
+  min-height: 100vh;
+  display: flex;
+  background-color: hsl(212, 45%, 89%);
 }
 
 p {
   font-size: 15px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.main {
+  margin: auto;
+  max-width: 85%;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 16px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 38px;
+  gap: 16px;
+}
+
+.article-head,
+.article-description {
+  text-align: center;
+}
+
+.article-head {
+  font-family: var(--primary-font);
+  color: hsl(218, 44%, 22%);
+  font-size: 21px;
+}
+
+.article-description {
+  color: hsl(220, 15%, 55%);
+  letter-spacing: 0.5px;
 }
