@@ -36,7 +36,8 @@ img {
 
 .main {
   margin: auto;
-  max-width: 85%;
+  width: 85%;
+  max-width: 320px;
   background-color: hsl(0, 0%, 100%);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 16px;
@@ -63,4 +64,11 @@ img {
 .article-description {
   color: hsl(220, 15%, 55%);
   letter-spacing: 0.5px;
+}
+
+@media (min-width: 360px) {
+  .main {
+    width: auto;
+    max-width: 310px;
+  }
 }
