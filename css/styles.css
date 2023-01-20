@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --primary-font: "Outfit", sans-serif;
+  --regular-weight: 400;
+  --bold-weight: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-weight: var(--regular-weight);
+}
+
+p {
+  font-size: 15px;
+}
